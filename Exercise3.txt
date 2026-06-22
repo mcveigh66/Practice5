@@ -1,0 +1,42 @@
+a-Can an instance method override a static method?
+Answer: no. You will get an error.
+
+b- Can a static method override an instance method?
+no. 
+
+c-Can you override a final instance method?
+no.
+
+
+d-Can you override an instance and make it final?
+Yes. WeighedItem can override getPrice() and decalre it as public final double getPrice() 
+
+e--Can you override an instance mthod and change its return type?
+no. 
+
+f- Can you hide a final static method? 
+no.
+
+g- Can an instance field hide a static field?
+Yes. WeightedItem can declare a normal instance variable named String label; 
+
+h-Can a static field hide an instance field?
+Yes. WeightItem can declare a static String name; 
+
+i-Can an instance method with public visibility overrride an instance method with defauly visibility?
+Yes. If it has no modifier. 
+
+j- Can an instance method with default visibility override an instance method with public visibility?
+No. 
+
+k- Can an instance method with protected visibility override an instance method with default visibility?
+Yes i think so 
+
+l- Can an instance method with default visibility override an instance method with protected visibility?
+no
+
+m- Final order summary 
+public
+protected
+defauly 
+private 
